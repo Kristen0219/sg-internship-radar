@@ -1,0 +1,593 @@
+{
+ "updated": "2026-11-19",
+ "product": {
+  "label_en": "Product",
+  "label_zh": "产品",
+  "jobs": [
+   {
+    "id": "4475055494",
+    "company": "ByteDance",
+    "title": "AI Product Manager Project Intern (AI Data & Safety) - 2026 Start (BS/MS)",
+    "date": "2026-11-15",
+    "url": "https://www.linkedin.com/jobs/view/4475055494"
+   },
+   {
+    "id": "4489080532",
+    "company": "UOB",
+    "title": "Product Management Intern (Jan - June 2027)",
+    "date": "2026-11-12",
+    "url": "https://www.linkedin.com/jobs/view/4489080532"
+   },
+   {
+    "id": "4489200414",
+    "company": "Tencent",
+    "title": "WeChat - Product Management Intern",
+    "date": "2026-11-12",
+    "url": "https://www.linkedin.com/jobs/view/4489200414"
+   },
+   {
+    "id": "4488873090",
+    "company": "Deutsche Börse Group",
+    "title": "Intern, Fund Services Product Management",
+    "date": "2026-11-09",
+    "url": "https://www.linkedin.com/jobs/view/4488873090"
+   },
+   {
+    "id": "4487646605",
+    "company": "NETS",
+    "title": "Merchant Business (Product) Intern",
+    "date": "2026-11-08",
+    "url": "https://www.linkedin.com/jobs/view/4487646605"
+   },
+   {
+    "id": "4486982082",
+    "company": "TikTok",
+    "title": "Product Operation Intern (TikTok Local Services) - 2027 Start",
+    "date": "2026-11-06",
+    "url": "https://www.linkedin.com/jobs/view/4486982082"
+   },
+   {
+    "id": "4450229237",
+    "company": "Tencent 腾讯",
+    "title": "Advertising Product Manager Intern",
+    "date": "2026-11-05",
+    "url": "https://www.linkedin.com/jobs/view/4450229237"
+   },
+   {
+    "id": "4486555375",
+    "company": "Shopee",
+    "title": "Product Management Intern, Regional Logistics (Spring 2027)",
+    "date": "2026-11-05",
+    "url": "https://www.linkedin.com/jobs/view/4486555375"
+   },
+   {
+    "id": "4486588318",
+    "company": "Shopee",
+    "title": "Product Manager Intern — AI Commerce (Spring 2027)",
+    "date": "2026-11-05",
+    "url": "https://www.linkedin.com/jobs/view/4486588318"
+   },
+   {
+    "id": "4486014263",
+    "company": "Xiaomi 小米",
+    "title": "Product Operation Internship",
+    "date": "2026-11-03",
+    "url": "https://www.linkedin.com/jobs/view/4486014263"
+   }
+  ],
+  "overview_zh": "最近 10 个产品类实习里，几乎每个都要求「用数据做产品判断」，并能独立写需求文档、推动跨团队上线。AI 产品方向越来越多（4/10 明确要求懂 LLM、Prompt、Agent 或 AI 评测）。SQL/Python 多为加分项，但腾讯广告、字节 AI 数据岗是硬性要求。",
+  "overview_en": "Across the 10 latest product internships, almost every role expects data-driven product decisions plus the ability to write requirement docs and drive cross-team launches. AI product work is rising: 4/10 explicitly ask for LLM, prompting, agent or AI-evaluation know-how. SQL/Python are mostly a plus, but required at Tencent Ads and ByteDance AI Data.",
+  "sections": [
+   {
+    "zh": "核心职责",
+    "en": "Core responsibilities",
+    "items": [
+     [
+      "分析用户行为、反馈和业务数据，找出痛点并提出产品改进",
+      "Analyse user behaviour, feedback and business data to find pain points and propose product improvements"
+     ],
+     [
+      "撰写 PRD / BRD：业务规则、用户流程、验收标准",
+      "Write PRDs / BRDs: business rules, user flows, acceptance criteria"
+     ],
+     [
+      "协调工程、设计、算法、运营等团队，跟踪进度直到上线",
+      "Coordinate engineering, design, algorithm and ops teams and track delivery through launch"
+     ],
+     [
+      "组织 UAT / 验收测试，上线后追踪 KPI 并复盘迭代",
+      "Run UAT / acceptance tests, track KPIs after launch and iterate"
+     ],
+     [
+      "做市场、竞品和用户调研，沉淀成可执行的洞察",
+      "Do market, competitor and user research and turn it into actionable insight"
+     ],
+     [
+      "AI 产品：分析 bad case、设计评测集、用 LLM 搭自动化流程",
+      "AI products: analyse bad cases, design evaluation sets, build LLM-powered automation"
+     ]
+    ]
+   },
+   {
+    "zh": "常见硬性要求",
+    "en": "Common hard requirements",
+    "items": [
+     [
+      "在读本科/硕士；计算机、信息系统、商科、工程类优先",
+      "Current Bachelor's/Master's; CS, IS, Business or Engineering preferred"
+     ],
+     [
+      "较强的结构化思维和数据分析能力",
+      "Strong structured thinking and analytical skills"
+     ],
+     [
+      "SQL / Python（5–6 个岗位提到，2 个为硬性要求）",
+      "SQL / Python (mentioned in 5–6 roles, required in 2)"
+     ],
+     [
+      "中英双语（字节、微信要求；德交所加分）",
+      "Mandarin–English bilingual (required at ByteDance and WeChat; a plus at Deutsche Börse)"
+     ],
+     [
+      "实习时长：12 周到 6 个月；NETS 要求 24 周以上全职",
+      "Duration: 12 weeks to 6 months; NETS needs 24+ weeks full-time"
+     ]
+    ]
+   },
+   {
+    "zh": "加分项",
+    "en": "Nice to have",
+    "items": [
+     [
+      "产品 / AI 应用 / 电商 / 推荐系统相关实习或项目",
+      "Prior PM, AI-application, e-commerce or recommendation-system internships or projects"
+     ],
+     [
+      "用 AI 编程工具做可交互 Demo，快速验证想法",
+      "Building interactive demos with AI coding tools to validate ideas"
+     ],
+     [
+      "Figma、Jira、Confluence、Power BI 等工具",
+      "Tools such as Figma, Jira, Confluence, Power BI"
+     ],
+     [
+      "支付、基金、合规、物流等行业知识",
+      "Domain knowledge in payments, funds, compliance or logistics"
+     ]
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "key": "analysis",
+    "en": "Data-driven product analysis",
+    "zh": "数据驱动的产品分析",
+    "n": 10,
+    "kw": "data analy|analys|insight|root cause|data-driven|数据分析|归因",
+    "learn_zh": "练习「指标拆解 → 定位问题 → 给出建议」的分析题，准备 2 个 STAR 案例",
+    "learn_en": "Practise metric breakdown → root cause → recommendation; prepare 2 STAR stories",
+    "tier": "core"
+   },
+   {
+    "key": "stakeholder",
+    "en": "Cross-functional delivery & launch",
+    "zh": "跨团队协作与上线推进",
+    "n": 9,
+    "kw": "stakeholder|cross-functional|cross-team|launch|coordinat|上线|协作",
+    "learn_zh": "准备一个你推动多团队上线的完整故事，讲清冲突怎么解决",
+    "learn_en": "Prepare one end-to-end story of driving a multi-team launch and resolving conflict",
+    "tier": "core"
+   },
+   {
+    "key": "comm",
+    "en": "Communication",
+    "zh": "沟通表达",
+    "n": 8,
+    "kw": "present|communicat|storytell|汇报|演示",
+    "learn_zh": "练习 2 分钟讲清一个项目的背景、动作和结果",
+    "learn_en": "Practise explaining a project's context, actions and impact in 2 minutes",
+    "tier": "core"
+   },
+   {
+    "key": "prd",
+    "en": "PRD / BRD & requirements",
+    "zh": "PRD / BRD 与需求定义",
+    "n": 6,
+    "kw": "\\bprd|\\bbrd|requirement|user stor|acceptance criteria|user flow|backlog|需求文档",
+    "learn_zh": "整理 1 份脱敏 PRD 作为作品集，含流程图、边界情况、验收标准",
+    "learn_en": "Put together one anonymised PRD for your portfolio, with flows, edge cases and acceptance criteria",
+    "tier": "core"
+   },
+   {
+    "key": "research",
+    "en": "User & market research",
+    "zh": "用户与市场调研",
+    "n": 6,
+    "kw": "user research|market research|competitor|interview|survey|user feedback|调研|竞品",
+    "learn_zh": "学习用户访谈和竞品分析框架（如 Jobs-to-be-Done）",
+    "learn_en": "Learn user-interview and competitor-analysis frameworks such as Jobs-to-be-Done",
+    "tier": "core"
+   },
+   {
+    "key": "domain",
+    "en": "Industry domain knowledge",
+    "zh": "行业知识（支付/金融/电商）",
+    "n": 6,
+    "kw": "payment|fintech|e-commerce|ecommerce|bank|fund|compliance|web3|crypto|insurance|portfolio|金融|支付",
+    "learn_zh": "针对目标公司补业务：支付链路、BNPL、基金分销等，各写一页笔记",
+    "learn_en": "Study the target business (payment flows, BNPL, fund distribution) and write a one-page note on each",
+    "tier": "plus"
+   },
+   {
+    "key": "python",
+    "en": "Python",
+    "zh": "Python",
+    "n": 6,
+    "kw": "python|pandas|numpy",
+    "learn_zh": "用 Pandas 做一个完整的数据清洗和分析项目，放到 GitHub",
+    "learn_en": "Build one full Pandas cleaning-and-analysis project and put it on GitHub",
+    "tier": "plus"
+   },
+   {
+    "key": "sql",
+    "en": "SQL",
+    "zh": "SQL",
+    "n": 5,
+    "kw": "\\bsql\\b|mysql|postgres|hive|bigquery",
+    "learn_zh": "刷 SQL 题（窗口函数、多表 JOIN），如 LeetCode SQL 50",
+    "learn_en": "Drill SQL (window functions, multi-table joins), e.g. LeetCode SQL 50",
+    "tier": "plus"
+   },
+   {
+    "key": "metrics",
+    "en": "Metrics, KPI & post-launch review",
+    "zh": "指标体系与上线复盘",
+    "n": 5,
+    "kw": "\\bkpi|metric|retention|conversion|tracking plan|a/b|experiment|dau|留存|转化",
+    "learn_zh": "学习北极星指标、AARRR 漏斗和 A/B 测试基础",
+    "learn_en": "Learn North Star metrics, the AARRR funnel and A/B testing basics",
+    "tier": "plus"
+   },
+   {
+    "key": "ai",
+    "en": "AI / LLM product sense",
+    "zh": "AI / 大模型产品理解",
+    "n": 4,
+    "kw": "\\bllm|genai|generative|prompt|\\brag\\b|agent|chatbot|large language|context engineering",
+    "learn_zh": "了解 Prompt、RAG、tool calling 和 AI 评测，做一个小 Agent Demo",
+    "learn_en": "Learn prompting, RAG, tool calling and AI evaluation; build a small agent demo",
+    "tier": "plus"
+   },
+   {
+    "key": "testing",
+    "en": "UAT / testing / AI evaluation",
+    "zh": "验收测试与 AI 评测",
+    "n": 4,
+    "kw": "\\buat\\b|acceptance|regression test|evaluat|benchmark|\\bqa\\b|test case",
+    "learn_zh": "学习如何写 UAT 用例和评测集，以及怎么做回归测试",
+    "learn_en": "Learn to write UAT cases and evaluation sets, and how to run regression tests",
+    "tier": "plus"
+   },
+   {
+    "key": "excel",
+    "en": "Excel",
+    "zh": "Excel",
+    "n": 3,
+    "kw": "excel|vba|spreadsheet|pivot",
+    "learn_zh": "熟练掌握数据透视表、XLOOKUP 和基础 VBA",
+    "learn_en": "Get fluent with pivot tables, XLOOKUP and basic VBA",
+    "tier": "plus"
+   },
+   {
+    "key": "bilingual",
+    "en": "Mandarin–English bilingual",
+    "zh": "中英双语",
+    "n": 3,
+    "kw": "mandarin|chinese|bilingual|中文|普通话",
+    "learn_zh": "在简历语言栏写明 Mandarin (Native)",
+    "learn_en": "State Mandarin (Native) in your resume's language section",
+    "tier": "plus"
+   },
+   {
+    "key": "tools",
+    "en": "Figma / Jira / prototyping",
+    "zh": "Figma / Jira / 原型工具",
+    "n": 2,
+    "kw": "figma|prototyp|jira|confluence|axure|wireframe",
+    "learn_zh": "熟悉 Jira 看板和 Figma 原型，能快速出交互稿",
+    "learn_en": "Get comfortable with Jira boards and Figma prototyping",
+    "tier": "plus"
+   }
+  ]
+ },
+ "data": {
+  "label_en": "Data",
+  "label_zh": "数据",
+  "jobs": [
+   {
+    "id": "4492285296",
+    "company": "Tencent",
+    "title": "Data & AI Analytics Intern",
+    "date": "2026-11-19",
+    "url": "https://www.linkedin.com/jobs/view/4492285296"
+   },
+   {
+    "id": "4492282608",
+    "company": "Tencent",
+    "title": "WXG - Data Scientist Intern (Safety Strategies)",
+    "date": "2026-11-19",
+    "url": "https://www.linkedin.com/jobs/view/4492282608"
+   },
+   {
+    "id": "4456864873",
+    "company": "Xiaomi 小米",
+    "title": "Data Analyst Intern(A119959)",
+    "date": "2026-11-19",
+    "url": "https://www.linkedin.com/jobs/view/4456864873"
+   },
+   {
+    "id": "4490830655",
+    "company": "QCP",
+    "title": "Intern, Data Analytics (Jan - Jun 2027)",
+    "date": "2026-11-18",
+    "url": "https://www.linkedin.com/jobs/view/4490830655"
+   },
+   {
+    "id": "4490979888",
+    "company": "Munich Re",
+    "title": "Data Science & Gen-AI Intern",
+    "date": "2026-11-17",
+    "url": "https://www.linkedin.com/jobs/view/4490979888"
+   },
+   {
+    "id": "4467062081",
+    "company": "OCBC",
+    "title": "Internship: Group Risk Management, Group Risk Portfolio Management, Credit Risk Modelling [Jan to May 2027]",
+    "date": "2026-11-16",
+    "url": "https://www.linkedin.com/jobs/view/4467062081"
+   },
+   {
+    "id": "4475044974",
+    "company": "ByteDance",
+    "title": "Data Science Intern (Global Payment) - 2027 Start",
+    "date": "2026-11-15",
+    "url": "https://www.linkedin.com/jobs/view/4475044974"
+   },
+   {
+    "id": "4450497230",
+    "company": "CPF Board",
+    "title": "[2027 H1 Term-time Internship] Business Analytics Intern",
+    "date": "2026-11-13",
+    "url": "https://www.linkedin.com/jobs/view/4450497230"
+   },
+   {
+    "id": "4456458596",
+    "company": "KPMG Singapore",
+    "title": "Advisory - Consulting, Forensic Data Analytics | Off-Cycle Internship (Jan 2027 to Jun 2027)",
+    "date": "2026-11-13",
+    "url": "https://www.linkedin.com/jobs/view/4456458596"
+   },
+   {
+    "id": "4424654048",
+    "company": "TikTok",
+    "title": "Data Analyst Project Intern (TikTok Shop) - 2026 Start (BS/MS)",
+    "date": "2026-11-11",
+    "url": "https://www.linkedin.com/jobs/view/4424654048"
+   }
+  ],
+  "overview_zh": "最近 10 个数据类实习（DA / BA / DS / 风控分析）几乎都要求 SQL + Python。明显的新趋势是 AI：7/10 提到 LLM、Prompt、RAG 或用 AI 做自动化分析。看板（Tableau/Power BI）、统计与实验分析、机器学习各约占一半。金融相关岗位（OCBC、KPMG、字节支付）还看重风控和反欺诈业务理解。注：腾讯有 3 个 JD 内容完全相同，已去重。",
+  "overview_en": "Nearly all 10 latest data internships (DA / BA / DS / risk analytics) require SQL + Python. The big new theme is AI: 7/10 mention LLMs, prompting, RAG or AI-automated analysis. Dashboards (Tableau / Power BI), statistics and experimentation, and machine learning each show up in about half. Finance roles (OCBC, KPMG, ByteDance Payments) also value risk and fraud domain knowledge. Note: three Tencent postings had identical JDs and were de-duplicated.",
+  "sections": [
+   {
+    "zh": "核心职责",
+    "en": "Core responsibilities",
+    "items": [
+     [
+      "处理大规模数据：清洗、探索性分析，发现业务机会和异常",
+      "Work with large datasets: cleaning and exploratory analysis to find opportunities and anomalies"
+     ],
+     [
+      "搭建看板和日报 / 周报，跟踪核心指标",
+      "Build dashboards and daily / weekly reports to track key metrics"
+     ],
+     [
+      "设计指标体系，用实验分析、因果推断评估策略效果",
+      "Design metric frameworks and evaluate strategies with experiments and causal inference"
+     ],
+     [
+      "搭建数据管道 / 数据集市，支持 BI 自助分析",
+      "Build data pipelines / data marts that support self-serve BI"
+     ],
+     [
+      "用 LLM / Agent 自动化分析流程（异常归因、报告生成）",
+      "Use LLMs / agents to automate analysis (anomaly attribution, report generation)"
+     ],
+     [
+      "风控方向：信用风险模型、反欺诈规则与监控",
+      "Risk track: credit-risk models, fraud rules and monitoring"
+     ]
+    ]
+   },
+   {
+    "zh": "常见硬性要求",
+    "en": "Common hard requirements",
+    "items": [
+     [
+      "在读本科/硕士；数据科学、计算机、统计、数学、商业分析等",
+      "Current Bachelor's/Master's in Data Science, CS, Statistics, Maths or Business Analytics"
+     ],
+     [
+      "SQL（8/10）和 Python（8/10）",
+      "SQL (8/10) and Python (8/10)"
+     ],
+     [
+      "统计基础：假设检验、回归、实验分析（5/10）",
+      "Statistics: hypothesis testing, regression, experiment analysis (5/10)"
+     ],
+     [
+      "能把分析结论讲给非技术人员听（5/10）",
+      "Explain findings to non-technical audiences (5/10)"
+     ],
+     [
+      "实习时长：小米 6 个月以上；TikTok 3 个月以上；CPF 1–5 月全职",
+      "Duration: Xiaomi 6+ months; TikTok 3+ months; CPF Jan–May full-time"
+     ]
+    ]
+   },
+   {
+    "zh": "加分项",
+    "en": "Nice to have",
+    "items": [
+     [
+      "Hive / Spark 等大数据平台，Databricks",
+      "Big-data platforms such as Hive / Spark, Databricks"
+     ],
+     [
+      "RAG、AI Agent、MCP、Prompt / Context Engineering",
+      "RAG, AI agents, MCP, prompt / context engineering"
+     ],
+     [
+      "Streamlit / Gradio 快速做 Demo",
+      "Quick demos with Streamlit / Gradio"
+     ],
+     [
+      "会计、金融、风控业务背景；中英双语",
+      "Accounting, finance or risk background; Mandarin–English bilingual"
+     ]
+    ]
+   }
+  ],
+  "skills": [
+   {
+    "key": "sql",
+    "en": "SQL",
+    "zh": "SQL",
+    "n": 8,
+    "kw": "\\bsql\\b|mysql|postgres|hive|bigquery",
+    "learn_zh": "重点练窗口函数、CTE、留存/漏斗类题目（LeetCode SQL 50、DataLemur）",
+    "learn_en": "Focus on window functions, CTEs, retention / funnel questions (LeetCode SQL 50, DataLemur)",
+    "tier": "core"
+   },
+   {
+    "key": "python",
+    "en": "Python (Pandas)",
+    "zh": "Python（Pandas）",
+    "n": 8,
+    "kw": "python|pandas|numpy",
+    "learn_zh": "用 Pandas 完整做一个公开数据集分析项目，放上 GitHub",
+    "learn_en": "Complete one public-dataset analysis project in Pandas and put it on GitHub",
+    "tier": "core"
+   },
+   {
+    "key": "ai",
+    "en": "GenAI / LLM for analytics",
+    "zh": "大模型 / AI 辅助分析",
+    "n": 7,
+    "kw": "\\bllm|genai|generative|prompt|\\brag\\b|agent|chatbot|large language|context engineering",
+    "learn_zh": "做一个用 LLM 自动生成数据报告或异常归因的小工具",
+    "learn_en": "Build a small tool that uses an LLM to auto-generate reports or attribute anomalies",
+    "tier": "core"
+   },
+   {
+    "key": "stats",
+    "en": "Statistics & experimentation",
+    "zh": "统计与实验分析",
+    "n": 5,
+    "kw": "statistic|a/b|ab test|hypothesis|regression|causal|experiment|统计",
+    "learn_zh": "补假设检验、A/B 实验设计、回归；推荐 Udacity《A/B Testing》",
+    "learn_en": "Brush up on hypothesis tests, A/B design and regression; try Udacity's A/B Testing",
+    "tier": "core"
+   },
+   {
+    "key": "ml",
+    "en": "Machine learning",
+    "zh": "机器学习",
+    "n": 5,
+    "kw": "machine learning|\\bml\\b|scikit|sklearn|xgboost|classification|predictive",
+    "learn_zh": "用 scikit-learn 做一个信用违约预测（Lending Club 数据）",
+    "learn_en": "Build a credit-default prediction with scikit-learn (Lending Club data)",
+    "tier": "plus"
+   },
+   {
+    "key": "comm",
+    "en": "Communication & storytelling",
+    "zh": "沟通与数据讲故事",
+    "n": 5,
+    "kw": "present|communicat|storytell|汇报|演示",
+    "learn_zh": "练习「一页结论 + 三个证据」的汇报结构",
+    "learn_en": "Practise a one-page conclusion + three supporting points structure",
+    "tier": "core"
+   },
+   {
+    "key": "bi",
+    "en": "BI dashboards (Tableau / Power BI)",
+    "zh": "BI 看板（Tableau / Power BI）",
+    "n": 4,
+    "kw": "tableau|power ?bi|superset|looker|dashboard|qlik|看板",
+    "learn_zh": "用 Tableau Public 或 Power BI 做一个公开作品集看板",
+    "learn_en": "Publish a portfolio dashboard on Tableau Public or Power BI",
+    "tier": "core"
+   },
+   {
+    "key": "pipeline",
+    "en": "Data pipelines & big data",
+    "zh": "数据管道与大数据",
+    "n": 4,
+    "kw": "spark|hive|hadoop|\\betl\\b|pipeline|airflow|databricks|data mart|\\bdbt\\b",
+    "learn_zh": "了解 ETL / 数仓分层概念，学一点 Spark SQL 和 dbt",
+    "learn_en": "Learn ETL / warehouse-layering concepts and a little Spark SQL and dbt",
+    "tier": "plus"
+   },
+   {
+    "key": "metrics",
+    "en": "Metrics & business insight",
+    "zh": "指标体系与业务洞察",
+    "n": 4,
+    "kw": "\\bkpi|metric|funnel|conversion|retention|root cause|insight|归因|漏斗",
+    "learn_zh": "准备一个「指标下跌怎么排查」的结构化答题框架",
+    "learn_en": "Prepare a structured framework for 'how would you investigate a metric drop'",
+    "tier": "core"
+   },
+   {
+    "key": "domain",
+    "en": "Risk / fraud / finance domain",
+    "zh": "风控 / 反欺诈 / 金融业务",
+    "n": 4,
+    "kw": "risk|fraud|credit|\\baml\\b|payment|portfolio|sharpe|financ",
+    "learn_zh": "学信用风险基础（PD/LGD、评分卡）和反欺诈规则思路",
+    "learn_en": "Learn credit-risk basics (PD/LGD, scorecards) and how fraud rules are designed",
+    "tier": "plus"
+   },
+   {
+    "key": "quality",
+    "en": "Data cleaning & quality",
+    "zh": "数据清洗与质量",
+    "n": 3,
+    "kw": "clean|data quality|validation|annotat|label|duplicate|standardis|standardiz",
+    "learn_zh": "在简历里写清你修复了哪些数据问题，量化效果",
+    "learn_en": "On your resume, name the data issues you fixed and quantify the impact",
+    "tier": "plus"
+   },
+   {
+    "key": "excel",
+    "en": "Excel",
+    "zh": "Excel",
+    "n": 2,
+    "kw": "excel|vba|spreadsheet|pivot",
+    "learn_zh": "熟练掌握数据透视表、XLOOKUP 和 Power Query",
+    "learn_en": "Get fluent with pivot tables, XLOOKUP and Power Query",
+    "tier": "plus"
+   },
+   {
+    "key": "bilingual",
+    "en": "Mandarin–English bilingual",
+    "zh": "中英双语",
+    "n": 2,
+    "kw": "mandarin|chinese|bilingual|中文|普通话",
+    "learn_zh": "在简历语言栏写明 Mandarin (Native)",
+    "learn_en": "State Mandarin (Native) in your resume's language section",
+    "tier": "plus"
+   }
+  ]
+ }
+}
