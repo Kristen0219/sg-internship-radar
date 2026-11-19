@@ -122,7 +122,7 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
 }
 @media (prefers-reduced-motion:reduce){.tab,.chip,.row{transition:none}}
 /* ---------- entry + insights view ---------- */
-.entry{display:inline-flex;align-items:center;gap:8px;margin-top:12px;padding:8px 14px;border-radius:10px;border:1px solid rgba(126,224,255,.45);background:rgba(126,224,255,.1);color:var(--ink);text-decoration:none;font-family:var(--display);font-weight:600;font-size:14px;box-shadow:0 0 18px rgba(126,224,255,.12);transition:background .15s,box-shadow .15s}
+.entry{display:inline-flex;align-items:center;gap:10px;margin-top:16px;padding:13px 22px;border-radius:12px;border:1px solid rgba(126,224,255,.55);background:rgba(126,224,255,.12);color:var(--ink);text-decoration:none;font-family:var(--display);font-weight:600;font-size:17px;max-width:100%;box-shadow:0 0 18px rgba(126,224,255,.12);transition:background .15s,box-shadow .15s}
 .entry:hover{background:rgba(126,224,255,.18);box-shadow:0 0 22px rgba(126,224,255,.25)}
 .entry:focus-visible{outline:2px solid var(--new);outline-offset:2px}
 .entry .ei{color:var(--new)} .entry .ea{font-family:var(--mono);color:var(--new)}
@@ -272,6 +272,8 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
     <p class="priv">简历只保存在你自己的浏览器里，不会上传到页面数据库，其他看这个页面的人看不到。</p>
     <div id="result"></div>
   </section>
+
+  <section class="panel" id="pSources"></section>
 </div>
 
 <script>
@@ -454,8 +456,9 @@ fetch("jobs.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}
     $("isub").textContent=`汇总最近 10 个${TR==="data"?"数据":"产品"}实习的 JD 要求（中英对照）。上传简历后，会自动统计匹配了哪些技能、还缺哪些。`;
     $("pOverview").innerHTML=`<h2>${esc(T.label_zh)}岗位要求总览 <span class="en">${esc(T.label_en)} roles · overview</span></h2>
       <p class="hint">基于最近发布的 10 个${esc(T.label_zh)}类实习 JD</p>
-      <div class="bi"><p>${esc(T.overview_zh)}</p><p class="e">${esc(T.overview_en)}</p></div>
-      <h2 style="margin-top:16px;font-size:14px">样本岗位 <span class="en">Source JDs</span></h2>
+      <div class="bi"><p>${esc(T.overview_zh)}</p><p class="e">${esc(T.overview_en)}</p></div>`;
+    $("pSources").innerHTML=`<h2>样本岗位 <span class="en">Source JDs</span></h2>
+      <p class="hint">以上总结基于这 10 个${esc(T.label_zh)}类实习 JD，点击可查看 LinkedIn 原帖</p>
       <div class="srcs">${T.jobs.map(j=>`<div class="src"><b>${esc(j.company)}</b><a href="${esc(j.url)}" target="_blank" rel="noopener" title="${esc(j.title)}">${esc(j.title)}</a><time>${esc(j.date.slice(5))}</time></div>`).join("")}</div>`;
     $("pSecs").innerHTML=`<div class="secs">${T.sections.map(s=>`<div class="sec"><h3>${esc(s.zh)}<small>${esc(s.en)}</small></h3><ul>${s.items.map(([z,e])=>`<li>${esc(z)}<span>${esc(e)}</span></li>`).join("")}</ul></div>`).join("")}</div>`;
     $("pSkills").innerHTML=`<h2>技能出现频率 <span class="en">Skill frequency · out of 10 JDs</span></h2>
