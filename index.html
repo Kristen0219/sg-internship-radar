@@ -95,8 +95,10 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
 .pager button:disabled{opacity:.35;cursor:default}
 .pager button:focus-visible{outline:2px solid var(--neon);outline-offset:1px}
 .foot{font-size:12px;color:var(--dim);text-align:center;font-family:var(--mono)}
-@media (max-width:760px){
-  h1{font-size:24px}
+.ptx{display:none;font-size:12px;color:var(--new);margin-top:3px}
+.pager .gap{font-family:var(--mono);color:var(--dim);padding:0 2px}
+@media (hover:none){.ptx{display:block}}
+@media (max-width:900px){
   .row.head{display:none}
   .row{grid-template-columns:1fr auto;gap:6px 10px;padding:14px}
   .co{grid-column:1/2}
@@ -105,8 +107,18 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
   .star{grid-column:2/3;grid-row:2/3;justify-self:end}
   .date{grid-column:1/2;flex-direction:row;align-items:center;gap:8px}
   .role{grid-column:1/2}
-  .go{grid-column:2/3;grid-row:3/5;justify-self:end;align-self:end}
+  .go{grid-column:2/3;grid-row:3/5;justify-self:end;align-self:end;padding:6px 0}
+}
+@media (max-width:760px){
+  h1{font-size:24px}
   .meta{text-align:left}
+  .tabs{width:100%;display:grid;grid-template-columns:repeat(3,1fr)}
+  .tab{justify-content:center;padding:8px 6px;font-size:14px}
+  .seg{width:100%;display:grid;grid-template-columns:repeat(3,auto)}
+  .seg button{justify-content:center;padding:6px 8px}
+  .toolbar input,.toolbar select,.rt{font-size:16px}
+  .toolbar .favbtn{flex:1 1 auto;justify-content:center}
+  .pager button{min-width:38px;height:38px}
 }
 @media (prefers-reduced-motion:reduce){.tab,.chip,.row{transition:none}}
 /* ---------- entry + insights view ---------- */
@@ -192,7 +204,7 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
       <div class="eyebrow">SG · FinTech · Finance · Internet</div>
       <h1>SG Internship Radar</h1>
       <p class="sub">LinkedIn 上新加坡的金融科技、金融与大厂实习，已排除开发岗，含数据 / BA / 风控分析岗。默认按发布时间排序，每页 10 个。</p>
-      <a class="entry" href="#insights"><span class="ei">◆</span>JD Insights · 简历匹配<span class="ea">→</span></a>
+      <a class="entry" href="#insights"><span class="ei">◆</span>查看你的简历与岗位的匹配度<span class="ea">→</span></a>
     </div>
     <div class="meta" id="meta">正在加载…</div>
   </header>
@@ -232,9 +244,7 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
   <header>
     <div>
       <button class="back" id="back">← Back to radar</button>
-      <div class="eyebrow" style="margin-top:14px">JD Insights · Resume Match</div>
-      <h1>JD 洞察 &amp; 简历匹配</h1>
-      <p class="sub">汇总最近 10 个产品 / 数据类实习的 JD 要求（中英对照）。上传简历后，会自动统计匹配了哪些技能、还缺哪些。</p>
+      <h1 style="margin-top:14px">JD Insights · 简历匹配</h1>
     </div>
     <div class="meta" id="imeta">正在加载…</div>
   </header>
@@ -243,6 +253,7 @@ h1{margin:6px 0 0;font-family:var(--display);font-size:30px;font-weight:700;lett
     <button class="tab" role="tab" data-tr="product" aria-selected="true">Product · 产品</button>
     <button class="tab" role="tab" data-tr="data" aria-selected="false">Data · 数据</button>
   </div>
+  <p class="sub" id="isub" style="margin:0"></p>
 
   <section class="panel" id="pOverview"></section>
   <section class="panel" id="pSecs"></section>
@@ -353,14 +364,19 @@ function render(){
   const head=`<div class="row head"><span>Company</span><span>Role</span><span>Posted</span><span>Track</span><span>Fit</span><span></span><span></span></div>`;
   $("list").innerHTML=view.length?head+view.map(j=>`<div class="row">
     <div class="co">${esc(j.company)}<small>${esc(j.desc)}</small></div>
-    <div class="ti">${esc(j.title)}${j.pt?`<span class="ptb" title="${esc(j.ptnote||"")}">${esc(j.pt)}</span>`:""}${S.size==="all"?`<span class="sizetag">// ${j.size==="small"?"中小型":"大公司"}</span>`:""}</div>
+    <div class="ti">${esc(j.title)}${j.pt?`<span class="ptb" title="${esc(j.ptnote||"")}">${esc(j.pt)}</span>`:""}${S.size==="all"?`<span class="sizetag">// ${j.size==="small"?"中小型":"大公司"}</span>`:""}${j.pt&&j.ptnote?`<span class="ptx">◷ ${esc(j.ptnote)}</span>`:""}</div>
     <div class="date">${esc(j.date)}${isNew(j.date)?'<span class="newb">NEW</span>':""}</div>
     <span class="role">${esc(j.role)}</span>
     <span class="fit ${esc(j.fit)}">${esc(j.fit)}</span>
     <a class="go" href="${esc(j.url)}" target="_blank" rel="noopener">查看 ↗</a>
     <button class="star" data-star="${esc(j.id)}" aria-pressed="${STARS.has(j.id)}" aria-label="${STARS.has(j.id)?"取消收藏":"收藏"}" title="${STARS.has(j.id)?"取消收藏":"收藏"}">${STARS.has(j.id)?"★":"☆"}</button></div>`).join(""):`<div class="empty">没有符合条件的岗位。换个方向，或清空搜索。</div>`;
   let p=`<button data-p="${S.page-1}" ${S.page<=1?"disabled":""} aria-label="上一页">‹</button>`;
-  for(let i=1;i<=pages;i++)p+=`<button data-p="${i}" ${i===S.page?'aria-current="page"':""}>${i}</button>`;
+  const near=innerWidth<=760?1:2;let last=0;
+  for(let i=1;i<=pages;i++){
+    if(i!==1&&i!==pages&&Math.abs(i-S.page)>near)continue;
+    if(last&&i-last>1)p+=`<span class="gap" aria-hidden="true">…</span>`;
+    p+=`<button data-p="${i}" ${i===S.page?'aria-current="page"':""}>${i}</button>`;last=i;
+  }
   p+=`<button data-p="${S.page+1}" ${S.page>=pages?"disabled":""} aria-label="下一页">›</button>`;
   $("pager").innerHTML=pages>1?p:"";
 }
@@ -435,6 +451,7 @@ fetch("jobs.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}
   function render(){
     const T=INS[TR];
     document.querySelectorAll("#itabs .tab").forEach(b=>b.setAttribute("aria-selected",b.dataset.tr===TR));
+    $("isub").textContent=`汇总最近 10 个${TR==="data"?"数据":"产品"}实习的 JD 要求（中英对照）。上传简历后，会自动统计匹配了哪些技能、还缺哪些。`;
     $("pOverview").innerHTML=`<h2>${esc(T.label_zh)}岗位要求总览 <span class="en">${esc(T.label_en)} roles · overview</span></h2>
       <p class="hint">基于最近发布的 10 个${esc(T.label_zh)}类实习 JD</p>
       <div class="bi"><p>${esc(T.overview_zh)}</p><p class="e">${esc(T.overview_en)}</p></div>
